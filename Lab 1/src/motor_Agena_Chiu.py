@@ -13,18 +13,18 @@ class MotorDriver:
         @param in2pin pin 2 to control the motor.
         @param timer timer to use for motor channels.
         '''
-        # Defines pin variables for the enable pin on the Nucleo
+        ## Defines pin variables for the enable pin on the Nucleo
         self.EN = pyb.Pin(en_pin, mode = pyb.Pin.OUT_OD,
                           pull = pyb.Pin.PULL_UP)
         
-        # Defines the timer variable for the motor.
+        ## Defines the timer variable for the motor.
         self.tim = pyb.Timer(timer, freq = 20000)
         
-        # Defines the pin variables to recieve the duty cycles.
+        ## Defines the pin variables to recieve the duty cycles.
         self.pin1 = pyb.Pin(in1pin, pyb.Pin.OUT_PP)
         self.pin2 = pyb.Pin(in2pin, pyb.Pin.OUT_PP)
         
-        # Define two channel variables.
+        ## Define two channel variables.
         self.ch1 = self.tim.channel(1, mode = pyb.Timer.PWM,
                                     pin = self.pin1)
         self.ch2 = self.tim.channel(2, mode = pyb.Timer.PWM,

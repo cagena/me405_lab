@@ -13,23 +13,23 @@ class EncoderDriver:
         @param timer timer to use for encoder channels.
         '''
         
-        # Defines the timer variable for the motor.
+        ## Defines the timer variable for the motor.
         self.tim = pyb.Timer(timer, prescaler = 0, period = 65535)
         
-        # Defines the pin variables to recieve the duty cycles.
+        ## Defines the pin variables to recieve the duty cycles.
         self.pin1 = pyb.Pin(in1pin, pyb.Pin.OUT_PP)
         self.pin2 = pyb.Pin(in2pin, pyb.Pin.OUT_PP)
         
-        # Define two channel variables.
+        ## Define two channel variables.
         self.ch1 = self.tim.channel(1, pyb.Timer.ENC_AB,
                                     pin = self.pin1)
         self.ch2 = self.tim.channel(2, pyb.Timer.ENC_AB,
                                     pin = self.pin2)
         
-        # Set the initial position to zero.
+        ## The initial position is set to zero.
         self.pos = 0
         
-        # Set the initial past time to zero.
+        ## The initial past time is set to zero.
         self.past = 0
     
     def read(self):
