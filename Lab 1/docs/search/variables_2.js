@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['past_0',['past',['../classencoder___agena___chiu_1_1_encoder_driver.html#a6baa1f96c8cb43a5092a39643a3e73e2',1,'encoder_Agena_Chiu::EncoderDriver']]],
-  ['pin1_1',['pin1',['../classencoder___agena___chiu_1_1_encoder_driver.html#abd4e907f46e0441bd73562dbd2a3baeb',1,'encoder_Agena_Chiu.EncoderDriver.pin1()'],['../classmotor___agena___chiu_1_1_motor_driver.html#a6230b5b2177448da85f9bb9bcda6606b',1,'motor_Agena_Chiu.MotorDriver.pin1()']]],
-  ['pos_2',['pos',['../classencoder___agena___chiu_1_1_encoder_driver.html#ac8766217a78451605bd3309dbcb5f89a',1,'encoder_Agena_Chiu::EncoderDriver']]]
+  ['en_0',['EN',['../classmotor___agena___chiu_1_1_motor_driver.html#a2c74c944cd4ee6ff383fa2c5badfc4f8',1,'motor_Agena_Chiu::MotorDriver']]],
+  ['encoder_5fdrv1_1',['encoder_drv1',['../main_8py.html#ae315b42e59f9ec6ff30cc6e262510523',1,'main']]],
+  ['encoder_5fdrv2_2',['encoder_drv2',['../main_8py.html#a2b01ee12b9f1c52f95f3b3b809bf4df8',1,'main']]]
 ];

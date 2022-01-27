@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['tim_0',['tim',['../classencoder___agena___chiu_1_1_encoder_driver.html#ad4e9a25630f8377ae01489a2f6da1d55',1,'encoder_Agena_Chiu.EncoderDriver.tim()'],['../classmotor___agena___chiu_1_1_motor_driver.html#aa2c33bb8e482b95e3dbaa131dff440cf',1,'motor_Agena_Chiu.MotorDriver.tim()']]]
+  ['motor_5fdrv1_0',['motor_drv1',['../main_8py.html#a4751714e63c395eb4c1db46bffd3936c',1,'main']]],
+  ['motor_5fdrv2_1',['motor_drv2',['../main_8py.html#ab484fede18af8cc04f85ce71f9cf814a',1,'main']]]
 ];
